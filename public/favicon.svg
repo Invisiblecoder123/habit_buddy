@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#090D16" />
+  <rect x="1" y="1" width="30" height="30" rx="7" stroke="#1F2937" stroke-width="1" />
+  <!-- Gamified Sword / Shield Flame Icon -->
+  <path d="M16 4C13.5 8.5 11 11.5 11 15C11 18.866 13.2386 22 16 22C18.7614 22 21 18.866 21 15C21 11.5 18.5 8.5 16 4Z" fill="url(#flameGrad)" filter="url(#glow)"/>
+  <path d="M16 12C15 14 14 15.5 14 17C14 18.5 14.8954 20 16 20C17.1046 20 18 18.5 18 17C18 15.5 17 14 16 12Z" fill="#FDE047"/>
+  <path d="M8 25L24 25" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="25" r="2" fill="#EC4899"/>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "appId": "com.habitbuddy.app",
+  "appName": "Habit Buddy",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#090D16"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#090D16"
+    }
+  }
+}
